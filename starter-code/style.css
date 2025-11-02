@@ -1,0 +1,77 @@
+.navbar {
+    align-self: stretch;
+          padding-top: 40px;
+          justify-content: flex-start;
+          align-items: center;
+          display: inline-flex;
+}
+
+.logo {
+    flex: 1 1 0;
+            padding-left: 64px;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 64px;
+            display: flex;
+}
+
+.logo-icon {
+    width: 48px; 
+    height: 48px;
+     position: relative;
+}
+
+.logo-svg {
+    width: 48px;
+                height: 48px;
+                left: 0px;
+                top: 0px;
+                position: absolute;
+                background: url(./shared/logo.svg);
+}
+
+.logo-icon-bg {
+    flex: 1 1 0;
+              height: 1px;
+              opacity: 0.25;
+              background: var(--color-white, white);
+}
+
+.nav-links {
+    flex: 1 1 0;
+            min-width: 664px;
+            padding-left: 64px;
+            padding-right: 64px;
+            background: rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+            backdrop-filter: blur(40px);
+            justify-content: flex-end;
+            align-items: center;
+            gap: 48px;
+            display: flex;
+}
+
+.navlink {
+    justify-content: flex-start;
+                align-items: flex-start;
+                gap: 12px;
+                display: inline-flex;
+}
+
+.nav-num{
+    color: var(--color-white, white);
+                  font-size: 16px;
+                  font-family: Barlow Condensed;
+                  font-weight: 700;
+                  letter-spacing: 2.7px;
+                  word-wrap: break-word;
+}
+
+.nav-text {
+    color: var(--color-white, white);
+                  font-size: 16px;
+                  font-family: Barlow Condensed;
+                  font-weight: 400;
+                  letter-spacing: 2px;
+                  word-wrap: break-word;
+}
