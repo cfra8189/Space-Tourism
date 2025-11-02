@@ -1,0 +1,13 @@
+.Navigation-Default {
+    height: 96px;
+              overflow: hidden;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-start;
+              gap: 8px;
+              display: inline-flex;
+}
+
+.home-nav {
+    border-bottom: 3px var(--color-white, white) solid;
+}
